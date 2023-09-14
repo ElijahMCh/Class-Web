@@ -1,0 +1,75 @@
+body {
+    background-color:darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+a {
+    color:blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+.c1 {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 50px 20px 50px 20px; /* or paddimg: 50px 20px */
+    margin: 0px 0;
+    text-align:center;
+}
+
+.c1half {
+    color: red;
+    font-weight: bold;
+    background-color: black;
+    margin: 0px 0;
+}
+
+#highlight {
+    background-color: black;
+}
+
+#highlight2 {
+    background-color: red;
+}
+
+.c2 {
+    margin-left: 40%;
+    margin-right: auto;
+    position: absolute;
+    text-align: center;
+}
+
+.c3 {
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align:center;
+}
+.c4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+}
