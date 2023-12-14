@@ -1,0 +1,498 @@
+@font-face {
+    font-family: 'cat';
+    src: url(king/DragonHunter-9Ynxj.otf);
+}
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+header {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin: 0 0;
+    padding: 20px 0px;
+    background-color: black;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    width: 70%;
+    text-shadow: 1px 1px pink;
+    padding: 0 7%;
+}
+h1 a {
+    color: white;
+    font-family: 'cat';
+}
+h1 a:hover {
+    background-color:transparent;
+}
+nav {
+    width: 60%;
+    text-align:right;
+    padding-right: 7%;
+}
+nav ul li {
+display: inline-block;
+font-size: 14px;
+text-transform: uppercase;
+margin: 0 5px;
+border:none;
+}
+a {
+    color: white;
+    text-decoration:none;
+    background-color: black;
+    padding: 10px 10px;
+}
+a:hover {
+    background-color: darkred;
+    color: white;
+}
+#opener {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+h2 {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.3;
+}
+h3 {
+    color: white;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.quote {
+    width: 800px;
+    position: relative;
+    top: 13vw;
+    left: 50vh;
+    z-index: 10;
+    opacity: 0.9;
+}
+.atdnd {
+    background-image: url(images/&dnd.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    bottom: -100px;
+    left:-100px;
+    opacity: 0.8;
+}
+.flex-area {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-image:url(images/bf.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.flex-area2 {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgb(78, 78, 78);
+    padding-bottom: 5%;
+}
+.flex-area3 {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+}
+.div2 {
+    background-color: rgba(0, 0, 0, 0.722);
+
+}
+h4 {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 2500;
+    padding: 10px;
+}
+ul h4 {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 2500;
+    padding: 10px;
+}
+h5 {
+    font-size: 40px;
+    padding-top: 8%;
+    padding-left: 5%;
+    
+}
+h6 {
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 8%;
+}
+.grid-area2 {
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.grid-area2 h6 {
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 8%;
+}
+.grid-area3 {
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.grid-area3 h6 {
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 8%;
+}
+
+ul {
+    list-style-type:none;
+}
+.column ul {
+    list-style-type:none;
+    background-color: rgba(245, 245, 245, 0.549);
+}
+.column ul li {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px dotted gray;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+}
+.column ul p {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px dotted gray;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+}
+.column ul p a {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px dotted gray;
+    padding: 10px 0px 10px 0px;
+    color: rgb(0, 119, 158);
+    background-color: transparent;
+}
+.column ul p a:hover{
+    background-color: transparent;
+    color: red;
+}
+.column {
+    width: 300px;
+    margin: 100px 50px 100px 50px;
+}
+span {
+    color: #aaaaaa;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.classes1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-row-gap: 45px;
+}
+.grid-item {
+    height: 200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Barbarian {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image:url(images/Barbarian.png);
+}
+.Bard {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image:url(images/Bard.png);
+}
+.Cleric {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image:url(images/Cleric.png);
+}
+.Druid {
+    grid-area: 1 / 4 / 2 / 5;
+    background-image:url(images/Druid.png);
+}
+.Fighter {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image:url(images/Fighter.png);
+}
+.Monk {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image:url(images/Monk.png);
+}
+.Paladin {
+    grid-area: 2 / 3 / 3 / 4;
+    background-image:url(images/Paladin.png);
+}
+.Ranger {
+    grid-area: 2 / 4 / 3 / 5;
+    background-image:url(images/Ranger.png);
+}
+.Rogue {
+  grid-area: 3 / 1 / 4 / 2;
+  background-image:url(images/Rogue.png);
+}
+.Sorcerer {
+  grid-area: 3 / 2 / 4 / 3;
+  background-image:url(images/Sorcerer.png);
+}
+.Warlock {
+  grid-area: 3 / 3 / 4 / 4;
+  background-image:url(images/Warlock.jpeg);
+}
+.Wizard {
+  grid-area: 3 / 4 / 4 / 5;
+  background-image:url(images/Wizard.png);
+}
+.grid-area {
+    background-color: black;
+    padding: 100px;
+}
+.grid-item p {
+    font-size: 30px;
+    color: rgb(201, 0, 0);
+    font-family: 'cat';
+    text-align:center;
+    margin-top: 220px;
+}
+a.button {
+    color:whitered;
+    background-color: black;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    width: 250px;
+    margin: 70px auto 25px auto;
+    text-align: center;
+    box-shadow: 3px 3px gray;
+    padding: 15px 25px;
+}
+a.button:hover {
+    color: red;
+    transform: translate(2px,2px);
+    box-shadow: 1px 1px gray;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+}
+.sec1 {
+grid-area: 1 / 1 / 2 / 2;
+background-image: url(images/mimic.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.sec2 {
+grid-area: 1 / 2 / 2 / 4;
+color: white;
+font-size: 20px;
+padding-top: 10%;
+}
+.sec3 {
+grid-area: 2 / 3 / 3 / 4;
+background-image: url(images/red-dragon.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.sec4 {
+grid-area: 2 / 1 / 3 / 3;
+color: white;
+font-size: 20px;
+padding-top: 10%;
+}
+.sec5 {
+grid-area: 3 / 1 / 4 / 2;
+background-image: url(images/beholder.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.sec6 {
+grid-area: 3 / 2 / 4 / 4;
+color: white;
+font-size: 20px;
+padding-top: 13%;
+}
+.sec7 {
+grid-area: 4 / 3 / 5 / 4;
+background-image: url(images/displacer-beast.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.sec8 {
+grid-area: 4 / 1 / 5 / 3;
+color: white;
+font-size: 20px;
+padding-top: 10%;
+}
+
+#video-section {
+    background-color: rgb(78, 78, 78);
+    background-image:none;
+}
+iframe {
+    margin: 0 50px;
+}
+#links-section {
+    background-color: gray;
+    padding: 100px 0;
+    position:relative;
+}
+.flex-area3 ul {
+    list-style-type:none;
+}
+.flex-area3 .column ul {
+    list-style-type:none;
+    background-color: rgba(245, 245, 245, 0.549);
+    text-align: center;
+}
+.flex-area3 .column ul p {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 50px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.flex-area3 .column ul p a {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+.flex-area3 .column ul p a:hover{
+    background-color: transparent;
+    color: red;
+}
+.flex-area3 .column {
+    width: 3000px;
+    margin: 100px 50px 100px 50px;
+}
+
+
+@keyframes my-moon {
+    0% {left:0; top:0}
+    25% {left:80%; top:0}
+    50% {left:80%; top:200px;}
+    75% {left:0; top:200px;}
+    100% {left:0; top:0;}
+}
+
+@media screen and (max-width: 990px) {
+
+h2 {
+    font-size: 30px;
+}
+.quote {
+    width: 80%;
+    top:0;
+    left:0;
+    margin: 250px auto;
+}
+header {
+    flex-direction:column;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav {
+    width: 100%;
+    text-align: center;
+}
+.bluemoon {
+    width: 400px;
+    height: 400px;
+}
+}
+
+@media screen and (max-width:750px) {
+.flex-area {
+    flex-direction: column;
+}
+.flex-area2 {
+    flex-direction: column;
+}
+.flex-area3 {
+    flex-direction: column;
+}
+.column {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-area3 .column {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-area3 {
+    grid-template-columns: 1fr;
+}
+iframe {
+    width: 80%;
+    margin-bottom: 50px;
+}
+.text {
+    width: 80%;
+    margin: 0 auto;
+}
+.text p {
+    font-size: 24px;
+    }
+}
